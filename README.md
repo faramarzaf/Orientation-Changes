@@ -14,7 +14,7 @@ If you want to manually handle orientation changes in your app you must declare 
 You can declare multiple configuration values in the attribute by separating them with a pipe | character.  
 
 For example, the following manifest code declares an activity that handles both screen orientation changes and keyboard availability change:  
-```java
+```xml
 <activity android:name=".MyActivity"
           android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
           android:label="@string/app_name">
